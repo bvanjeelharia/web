@@ -12,14 +12,14 @@
     <t t-inherit="web.Legacy.ControlPanel" t-inherit-mode="extension" t-owl="1">
         <xpath expr="//div[hasclass('o_cp_bottom')]" t-operation="inside">
             <nav class="btn-group">
-                <HelpButton resModel="env.action.res_model" viewType="env.view.type" />
+                <HelpButton resModel="env.action.res_model" viewType="env.view and env.view.type" />
             </nav>
         </xpath>
     </t>
     <t t-inherit="web.ControlPanel" t-inherit-mode="extension" t-owl="1">
         <xpath expr="//div[hasclass('o_cp_bottom')]" t-operation="inside">
             <nav class="btn-group">
-                <HelpButton resModel="env.action.res_model" viewType="env.view.type" />
+                <HelpButton resModel="env.action.res_model" viewType="env.view and env.view.type" />
             </nav>
         </xpath>
     </t>
